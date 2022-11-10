@@ -354,6 +354,7 @@
 "Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs"
 "Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs"
 "Assets/Target.cs"
+"Assets/Wander.cs"
 -langversion:9.0
 
 /deterministic

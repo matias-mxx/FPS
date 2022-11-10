@@ -360,6 +360,7 @@ GameObject:
   - component: {fileID: 294131201}
   - component: {fileID: 294131200}
   - component: {fileID: 294131199}
+  - component: {fileID: 294131204}
   m_Layer: 0
   m_Name: Enemy (1)
   m_TagString: Untagged
@@ -459,6 +460,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &294131204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294131198}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74891eae01e28428bac7b292e22e9b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &416054465
 GameObject:
   m_ObjectHideFlags: 0
@@ -2959,6 +2972,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1978471637655604388, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: canPush
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5468408971143109682, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
